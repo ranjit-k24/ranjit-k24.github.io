@@ -1,8 +1,9 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ranjit K | Data Analyst</title>
 
     <style>
@@ -23,15 +24,15 @@
             background:#1f2937;
             color:white;
             text-align:center;
-            padding:60px 20px;
+            padding:80px 20px;
         }
 
         header h1{
             font-size:3rem;
+            margin-bottom:10px;
         }
 
         header p{
-            margin-top:10px;
             font-size:1.2rem;
         }
 
@@ -60,11 +61,12 @@
             color:white;
             padding:10px 15px;
             border-radius:20px;
+            font-size:14px;
         }
 
         .projects{
             display:grid;
-            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
             gap:20px;
         }
 
@@ -73,6 +75,39 @@
             padding:20px;
             border-radius:10px;
             box-shadow:0 2px 10px rgba(0,0,0,0.1);
+            transition:0.3s;
+        }
+
+        .card:hover{
+            transform:translateY(-5px);
+        }
+
+        .card h3{
+            margin-bottom:10px;
+            color:#1f2937;
+        }
+
+        .contact p{
+            margin-bottom:10px;
+        }
+
+        .contact a{
+            color:#2563eb;
+            text-decoration:none;
+        }
+
+        .contact a:hover{
+            text-decoration:underline;
+        }
+
+        .resume-btn{
+            display:inline-block;
+            background:#2563eb;
+            color:white;
+            padding:12px 20px;
+            border-radius:6px;
+            text-decoration:none;
+            margin-top:15px;
         }
 
         footer{
@@ -80,22 +115,27 @@
             background:#1f2937;
             color:white;
             padding:20px;
+            margin-top:40px;
         }
     </style>
 </head>
+
 <body>
 
 <header>
     <h1>Ranjit K</h1>
-    <p>Data Analyst | Power BI Developer</p>
+    <p>Data Analyst | Power BI Developer | Business Intelligence</p>
 </header>
 
 <section>
     <h2>About Me</h2>
+
     <p>
-        Data Analyst with 3+ years of experience at Mphasis.
-        Skilled in Power BI, SQL, Excel, ETL, DAX, and reporting automation.
-        Passionate about transforming data into actionable business insights.
+        Data Analyst with 3+ years of experience at Mphasis specializing in
+        Power BI, SQL, Excel, ETL, DAX, and reporting automation.
+        Experienced in developing interactive dashboards, optimizing reporting
+        processes, and delivering data-driven insights that support business
+        decision-making.
     </p>
 </section>
 
@@ -104,13 +144,14 @@
 
     <div class="skills">
         <div class="skill">Power BI</div>
-        <div class="skill">SQL</div>
+        <div class="skill">SQL Server</div>
         <div class="skill">Excel</div>
         <div class="skill">DAX</div>
         <div class="skill">ETL</div>
         <div class="skill">Power Query</div>
         <div class="skill">Data Analysis</div>
-        <div class="skill">Automation</div>
+        <div class="skill">Reporting Automation</div>
+        <div class="skill">Business Intelligence</div>
     </div>
 </section>
 
@@ -120,29 +161,66 @@
     <div class="projects">
 
         <div class="card">
-            <h3>Sales Dashboard</h3>
-            <p>Interactive Power BI dashboard for sales performance tracking and KPI monitoring.</p>
+            <h3>Power BI Sales Dashboard</h3>
+            <p>
+                Built an interactive dashboard to track KPIs, sales trends,
+                regional performance, and business growth metrics.
+            </p>
         </div>
 
         <div class="card">
-            <h3>Customer Analysis</h3>
-            <p>SQL and Power BI solution for customer segmentation and trend analysis.</p>
+            <h3>SQL Customer Analysis</h3>
+            <p>
+                Performed customer segmentation and trend analysis using SQL
+                to uncover business insights and improve decision-making.
+            </p>
         </div>
 
         <div class="card">
-            <h3>Reporting Automation</h3>
-            <p>Automated reporting process using Excel and data transformation workflows.</p>
+            <h3>Excel Reporting Automation</h3>
+            <p>
+                Automated recurring reporting processes, reducing manual effort
+                and improving reporting efficiency.
+            </p>
         </div>
 
     </div>
 </section>
 
-<section>
+<section class="contact">
     <h2>Contact</h2>
 
-    <p>Email: your.email@example.com</p>
-    <p>LinkedIn: Add your LinkedIn URL</p>
-    <p>GitHub: https://github.com/ranjit-k24</p>
+    <p>
+        Email:
+        <a href="mailto:ranjithbbxr25@gmail.com">
+            ranjithbbxr25@gmail.com
+        </a>
+    </p>
+
+    <p>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/ranjit-k-4373a1183/" target="_blank">
+            linkedin.com/in/ranjit-k-4373a1183
+        </a>
+    </p>
+
+    <p>
+        GitHub:
+        <a href="https://github.com/ranjit-k24" target="_blank">
+            github.com/ranjit-k24
+        </a>
+    </p>
+
+    <p>
+        Portfolio:
+        <a href="https://ranjit-k24.github.io" target="_blank">
+            ranjit-k24.github.io
+        </a>
+    </p>
+
+    <a href="#" class="resume-btn">
+        Download Resume
+    </a>
 </section>
 
 <footer>
@@ -151,3 +229,4 @@
 
 </body>
 </html>
+```
